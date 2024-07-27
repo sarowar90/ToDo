@@ -12,6 +12,9 @@ void main() async {
   Hive.registerAdapter(TaskAdapter());
   await Hive.openBox<Task>('todoBox');
 
+
+  
+
   runApp( MyApp());
 }
 
